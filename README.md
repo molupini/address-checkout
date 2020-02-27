@@ -7,6 +7,8 @@ Powered by Nodejs.
 # Features
 
 You can:
+  - Verify Network
+  - Verify Capacity 
   - Checkout Address from ipam api, see [ipam]
 
 # Installation
@@ -53,6 +55,8 @@ Verify node,
 # # IMPORTANT 
 
 # PARAMETERS
+    # --network= 
+      # > see example below this is the base url [protocol]://[fqdn]:[port]. The path is defined in the script
     # --jwt=
       # > either make use of a environment variable or parameter not both,
       # > example if you set the JWT_TOKEN environment variable and jwt parameter the env will take effect. 

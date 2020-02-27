@@ -30,7 +30,7 @@ var httpFetch = async function (url, json = true, method = 'GET', user = null, p
     const client = got.extend({
         json, 
         baseUrl: url,
-        port,
+        // port,
         // default is no timeout
         timeout: 10000,
         rejectUnauthorized: false,

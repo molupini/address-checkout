@@ -59,7 +59,8 @@ Verify node,
     # --network=, 0.0.0.0 IPv4 format 
 
 # COMMEND
-$ node run.js --jwt= --network=
+$ node run.js --url= --network= --jwt= 
+# example node run.js --url=http://fqdn:3000 --network=10.11.11.0 --jwt=token
 
 # RESULT
   # > SUCCESS JSON RESPONSE 
